@@ -1,0 +1,55 @@
+# .gitignore
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Bytecode directories
+__pycache__/
+*.pyo
+*.pyd
+
+# Environment files
+.env
+venv/
+env/
+*.env
+
+# IDE/Editor directories
+.vscode/
+.idea/
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# SQLite database files
+*.sqlite3
+*.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python egg files
+*.egg
+*.egg-info
+
+# Distribution and packaging
+build/
+dist/
+*.egg-info/
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.hypothesis/
+.pytest_cache/
